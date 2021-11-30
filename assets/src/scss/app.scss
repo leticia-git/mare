@@ -1,0 +1,32 @@
+
+// Bases
+@import 'base/variables';
+@import 'base/funcoes';
+@import 'base/mixins';
+@import 'base/placeholders';
+@import 'base/reset';
+
+// Módulos
+@import 'modules/animate';
+@import 'modules/aos';
+@import 'modules/bootstrap';
+@import 'modules/fancy';
+@import 'modules/scrollbar';
+@import 'modules/slick';
+
+
+// Componentes
+@import 'components/buttons';
+@import 'components/form';
+@import 'components/loading';
+@import 'components/padroes';
+@import 'components/exemplo';
+@import 'components/acessibilidade';
+
+
+// Layout
+@import 'layout/home';
+@import 'layout/header';
+@import 'layout/footer';
+
+
