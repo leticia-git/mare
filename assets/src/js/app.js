@@ -1,10 +1,9 @@
-AOS.init({
-    disable: 'mobile',
-});
+
 
 $(document).ready(function(){
-    if (screen.width > 991) {
-        $("body").niceScroll();
-    }
+    jQuery(".menu-hamburguer").click(function () {
+        jQuery(".header-nav-menu").toggleClass("ativo");
+        jQuery(".menu-hamburguer").toggleClass("is-active")
+    });
 });
 

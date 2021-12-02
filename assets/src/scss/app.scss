@@ -22,11 +22,13 @@
 @import 'components/padroes';
 @import 'components/exemplo';
 @import 'components/acessibilidade';
-
+@import 'components/hamburguers';
 
 // Layout
 @import 'layout/home';
 @import 'layout/header';
 @import 'layout/footer';
-
-
+@import 'layout/maretv';
+@import 'layout/sobre';
+@import 'layout/contato';
+@import 'layout/loja';

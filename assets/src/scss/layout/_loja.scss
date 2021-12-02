@@ -1,0 +1,43 @@
+.produto {
+    margin-top: 100px;
+    text-align: center;
+    .preco {
+        p {
+            font-size: 32px;
+            color: #5153a2;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        span {
+            font-size: 16px;
+        }
+        a{
+            padding: 10px 40px;
+            background-color: #5153a2;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    }
+}
+.compre a{
+    transition: 0.3s ease-in-out;
+          &:hover,
+          &:active,
+          &:focus {
+              background: darken(#5153a2,10);
+  
+          }
+ }
+  
+.produto img {
+     transition: 0.3s ease-in-out;
+          &:hover,
+          &:active,
+          &:focus {
+                transform: scale(1.1);
+          }
+   
+}
